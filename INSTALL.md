@@ -13,7 +13,8 @@ sudo make install
 
 **git clone the repository**
 ```
-git clone <repository url>
+git clone https://github.com/hangoutsbot/hangoutsbot.git
+
 ```
 
 **install dependencies**
@@ -34,12 +35,12 @@ You need to **run the bot for the first time**. You will need at least
 The basic syntax for running the bot (assuming you are in the root 
   of the cloned repository) is:
 ```
-python3 hangupsbot/hangupsbot.py
+python3 hangoutsbot/hangupsbot/hangupsbot.py
 ```
 
 If you are having problems starting the bot, appending a `-d` at the
   end will dump more details into the bot logs e.g. 
-  `python3 hangupsbot/hangupsbot.py -d` - more configuration 
+  `python3 hangoutsbot/hangupsbot/hangupsbot.py -d` - more configuration 
   directives can be found at the end of the README file.
 
 You will be prompted for your gmail username and password. Use your
